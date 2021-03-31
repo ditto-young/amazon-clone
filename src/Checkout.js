@@ -19,7 +19,6 @@ function Checkout() {
                     <h2 className="checkout__title">
                         Your shopping Basket
                     </h2>
-
                     {basket.map(item => (
                         <CheckoutProduct
                             id={item.id}
@@ -29,17 +28,11 @@ function Checkout() {
                             rating={item.rating}
                         />
                     ))}
-                    {/* CheckoutProduct */}
-                    {/* CheckoutProduct */}
-                    {/* CheckoutProduct */}
-                    {/* CheckoutProduct */}
-
                 </div>
             </div>
 
             <div className="checkout__right">
                 <Subtotal/>
-                <h2>The subtotal will go here</h2>
             </div>
         </div>
     )
