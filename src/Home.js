@@ -17,14 +17,20 @@ function Home() {
                 />
 
                 <div className="home__row">
-                    <Product 
-                        title="The lean startup" 
-                        price={29.99}
-                        image="https://images-na.ssl-images-amazon.com/
-                        images/I/51Zymoq7UnL._AC_SY400_.jpg"
-                        rating={5}
+                    <Product
+                            id="4903850"
+                            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+                            price={199.99}
+                            rating={3}
+                            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                        />
+                    <Product
+                        id="4903850"
+                        title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+                        price={199.99}
+                        rating={3}
+                        image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
                     />
-                    <Product/>
                 </div>
 
                 <div className="home__row">
@@ -58,7 +64,7 @@ function Home() {
                         LED Gaming Monitor - Super Ultra Wide
                         Fual WOHD 5120 x 1440"
                         price={1094.98}
-                        rating={4}
+                        rating={4} 
                         image="https://images-na.
                         ssl-images-amazon.com/images/I/
                         6125mFrzr6L._AC_SX355_.jpg"
